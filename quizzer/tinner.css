@@ -1,0 +1,180 @@
+/*.bod
+{
+	background-color:#99ffcc;
+}*/
+body{
+	background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("comp.jpg");
+	
+	background-size:cover;
+	background-position:center;
+}
+
+
+.lev
+{
+	background-color:#ff6699;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:45px;
+	
+	width:100%
+	
+}
+.acontainer
+{
+	font-size:40px;
+	width:1000px;
+	color:white;
+	padding:50px;
+	position:absolute;
+}
+/*
+.acontainer
+{
+	font-size:40px;
+	width:1000px;
+	border:15px solid green;
+	padding:50px;
+	margin:20px;
+	position:absolute;
+	background:#cc66ff;
+	
+}*/
+/*
+.containers
+{
+	font-size:20px;
+	padding-top:600px;
+	padding-right:550px;
+	text-align:center;
+	padding-bottom:0;
+	
+}*/
+.containers
+{
+	position:fixed;
+	bottom:0;
+	left:30%;
+	font-size:30px;
+	color:white;
+}
+.current
+{
+	font-size:40px;
+	padding:0px 30px;
+	color:white;
+	
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.tab
+{
+	font-size:20px;
+	width:100%;
+	color:white;
+	border-color:white;
+	
+}
+.leader
+{
+	position:absolute;
+	padding-left:1250px;
+	padding-top:80px;
+	text-transform:uppercase;
+	table-layout:auto;
+	width:180px;
+	
+	
+}
+.name
+{
+	color:white;
+}
+.time
+{
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	font-size:40px;
+}
+		
+.score
+{
+	color:white;
+	padding:60px;
+}
+.logout{
+	
+  position:absolute;
+  right:10px;
+  top:10px;
+  font: bold 40px Arial;
+  text-decoration: none;
+  background-color: #ff9966;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+
+}
+
+
